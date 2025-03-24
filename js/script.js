@@ -26,9 +26,8 @@ fetch (`https://jsonplaceholder.typicode.com/users`)
             };
         });
         
-        console.log(edadUsers)
-        
-
+        console.log(edadUsers);
+        usuariosContainer(edadUsers);   //esto era lo que me faltaba para que saliesen las img 
 
 
     })
@@ -38,7 +37,7 @@ fetch (`https://jsonplaceholder.typicode.com/users`)
 
 
 function usuariosContainer (usuarios) {
-    const usuariosDom = document.getElementById ("usuarios");
+    const usuariosDom = document.getElementById ("listaUsuarios");
 
     usuarios.forEach (user =>{
         const liUsers = document.createElement ("li");
