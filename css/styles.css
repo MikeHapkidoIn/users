@@ -1,3 +1,7 @@
+* {
+  margin: 0;
+  padding: 0;
+}
 body {
   font-family: Arial, sans-serif;
   background-color: #f4f4f4;
@@ -9,5 +13,40 @@ h1 {
   text-align: center;
   color: #333;
 }
+
+img {
+  width: 100px;
+}
+
+ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 20px ;
+  gap: 20px;
+  list-style: none;
+}
+
+li {
+  width: 400px;
+  border: 1px solid grey;
+  border-radius: 5px;
+  padding: 3px;
+}
+
+.info {
+  border: 1px solid grey;
+  border-radius: 5px;
+  padding: 3px;
+}
+
+.data {
+  display: flex;
+  justify-content: space-between;
+}
+
+
+
+
 
 
